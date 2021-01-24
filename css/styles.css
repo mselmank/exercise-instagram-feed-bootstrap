@@ -124,3 +124,123 @@ img {
     margin: 0 auto;
     animation: loader 500ms linear infinite;
 }
+
+.device {
+    width: 100%;
+    max-width: 360px;
+    height: 100vh;
+    max-height: 640px;
+    margin: 4em auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.app__phone {
+    width: 100%;
+    max-width: 360px;
+    height: 100vh;
+    max-height: 640px;
+    margin: 5em auto;
+    box-shadow: 0 0 20px rgba(255, 246, 246, 0.2);
+}
+
+.app__phone .bottom {
+    box-shadow: 0 -2px 2px rgb(144, 145, 145);
+}
+
+
+/* post layout */
+
+.app__phone .content .post {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.app__phone .content .post .post-header {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .4em;
+}
+
+.app__phone .content .post .post-header .user-thumb {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.app__phone .content .post .post-header .user-details {
+    font-size: .95em;
+    line-height: 1em;
+    flex-grow: 1;
+    padding: 0 .5em;
+}
+
+.app__phone.content .post .post-header .user-details strong,
+.app__phone .content .post .post-header .user-details span {
+    display: block;
+}
+
+.app__phone .content .post .post-header .post-menu {
+    min-width: 40px;
+}
+
+.app__phone .content .post .post-header .post-menu .menu {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: 270px 235px;
+    background-position: -50px -186px;
+    background-image: url(https://storage.googleapis.com/mkts/insta-sprite.png);
+}
+
+.app__phone .content .post .post-photo {
+    width: 100%;
+}
+
+.app__phone .content .post .post-footer .buttons {
+    width: 100%;
+    padding: .6em 1em;
+    display: flex;
+    justify-content: center-;
+    align-items: center;
+}
+
+.app__phone .content .post .post-footer .buttons .post-btn span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://storage.googleapis.com/mkts/insta-sprite.png);
+}
+
+.app__phone .content .post .post-footer .likes {
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .4em 1em;
+    font-size: .95em;
+}
+
+.app__phone .content .post .post-footer .likes .user-like {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+.app__phone .content .post .post-footer .likes strong {
+    margin: 0 .3em;
+}
+
+.app__phone .content .post .post-footer .comments {
+    width: 100%;
+    padding: .4em 1em;
+    font-size: .95em;
+}
+
+.app__phone .content .post .post-footer .comments p {
+    margin: 0;
+}
