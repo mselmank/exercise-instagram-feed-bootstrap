@@ -30,23 +30,20 @@ img {
 
 .button {
     position: absolute;
-    background: #2edd3d;
+    background: #39a842;
     color: #fff;
     left: 75%;
-    margin-bottom: 0.56%;
-    text-transform: uppercase;
-    padding: 20px 0px;
-    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 20px 15px;
+    border-radius: 7px;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
 }
 
-.button:hover {
-    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-    -webkit-transform: translate(0px, -10px) scale(1.2);
-    transform: translate(0px, -10px) scale(1.2);
+#btn btn-default dropdown-toggle {
+    right: 75%;
 }
 
 
@@ -61,8 +58,8 @@ img {
 
 .gallery-item {
     position: relative;
-    flex: 1 0 22rem;
-    margin: 1rem;
+    flex: 1 0 20rem;
+    margin: 2px;
     color: #fff;
     cursor: pointer;
 }
